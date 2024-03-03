@@ -22,7 +22,7 @@ export default{
   <main class="main">
     <div>
       <h1 class="mb-3 text-3xl font-bold">商品列表</h1>
-      <div class="flex justify-end"><button>卡片顯示</button><button>條列顯示</button></div>
+      <div class="flex justify-end"><button>卡片顯示</button>/<button>條列顯示</button></div>
     </div>
     <div class="flex flex-wrap justify-center gap-5">
       <div v-for="(products, index) in products" :key="index" class="w-1/6 border rounded-lg flex flex-col">

@@ -42,7 +42,9 @@
       </div>
     </div>
   </main>
-  <a href="" class="flex justify-center bg-slate-400 border rounded-md"><span>回首頁</span></a>
+  <RouterLink to="/shooping" class="flex justify-center bg-slate-400 border rounded-md">
+  <span>回首頁</span>
+  </RouterLink>
 </template>
 
 
